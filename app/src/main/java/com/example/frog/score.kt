@@ -11,7 +11,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun Score(
+fun ScoreScreen(
     score: Int,
     btn1Count: Int,
     btn2Count: Int,
