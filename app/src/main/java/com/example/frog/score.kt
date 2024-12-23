@@ -32,7 +32,7 @@ fun ScoreScreen(
                 .align(Alignment.Center)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.title),
+                painter = painterResource(id = R.drawable.memo),
                 contentDescription = "Title",
                 modifier = Modifier.size(200.dp)
             )
@@ -46,7 +46,7 @@ fun ScoreScreen(
             contentDescription = "Frog",
             modifier = Modifier
                 .align(Alignment.CenterEnd)
-                .size(100.dp)
+                .size(500.dp)
         )
         Image(
             painter = painterResource(id = R.drawable.frog4),
